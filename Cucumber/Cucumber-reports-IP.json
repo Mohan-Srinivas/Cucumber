@@ -1,0 +1,89 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-26T07:20:57.015Z",
+        "line": 4,
+        "name": "Success",
+        "description": "",
+        "id": "title;success",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1579400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters passwors as \"abcd123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepIP.user_enters_passwors_as(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 162900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter confirm password as \"abcd123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd123\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepIP.user_enter_confirm_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the password is changed",
+            "match": {
+              "location": "StepIP.the_password_is_changed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title",
+    "description": "",
+    "id": "title",
+    "keyword": "Feature",
+    "uri": "classpath:Pack/LoginIP.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
